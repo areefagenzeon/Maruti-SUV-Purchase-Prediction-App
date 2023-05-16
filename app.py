@@ -2,6 +2,7 @@ import pickle
 #from ml_model import sst
 from flask import Flask, render_template, request
 from sklearn.preprocessing import StandardScaler
+import pandas as pd
 #model.pkl - trained ml model
 
 #Desirilize - read the binary file - trained ML model
